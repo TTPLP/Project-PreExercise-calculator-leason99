@@ -12,7 +12,7 @@ public class calculator extends AppCompatActivity {
     private Button  Clr,add,minus,multi,divide,equ;
     boolean clr_flag=false;
     private TextView result_text;
-    int btn [] ={ R.id.zero,R.id.one,R.id.two,R.id.three,R.id.four,R.id.five,R.id.six,R.id.seven,R.id.eight,R.id.nine};
+    int btn [] ={ R.id.btn_zero,R.id.btn_one,R.id.btn_two,R.id.btn_three,R.id.btn_four,R.id.btn_five,R.id.btn_six,R.id.btn_seven,R.id.btn_eight,R.id.btn_nine};
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,13 +21,13 @@ public class calculator extends AppCompatActivity {
              Num[i]=(Button)findViewById(btn[i]);
         }
 
-        add=(Button)findViewById(R.id.add);
-        minus=(Button)findViewById(R.id.minus);
-        multi=(Button)findViewById(R.id.mutli);
-        divide=(Button)findViewById(R.id.divide);
-        equ=(Button)findViewById(R.id.equ);
-        Clr=(Button)findViewById(R.id.clr);
-        result_text =(TextView)findViewById(R.id.result);
+        add=(Button)findViewById(R.id.btn_add);
+        minus=(Button)findViewById(R.id.btn_minus);
+        multi=(Button)findViewById(R.id.btn_mutli);
+        divide=(Button)findViewById(R.id.btn_divide);
+        equ=(Button)findViewById(R.id.btn_equ);
+        Clr=(Button)findViewById(R.id.btn_clr);
+        result_text =(TextView)findViewById(R.id.TextView_result);
         result_text.setText("0");
         Clr.setOnClickListener(new Button.OnClickListener() {
             @Override
