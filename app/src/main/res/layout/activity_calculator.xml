@@ -25,7 +25,7 @@
            android:layout_width="wrap_content"
            android:layout_height="wrap_content"
            android:text="1"
-           android:id="@+id/button"
+           android:id="@+id/one"
            android:layout_below="@+id/tableLayout"
            android:layout_alignParentLeft="true"
            android:layout_alignParentStart="true"
@@ -36,10 +36,10 @@
            android:layout_width="match_parent"
            android:layout_height="wrap_content"
            android:text="2"
-           android:id="@+id/button2"
-           android:layout_alignBottom="@+id/button"
-           android:layout_toRightOf="@+id/button"
-           android:layout_toEndOf="@+id/button"
+           android:id="@+id/two"
+           android:layout_alignBottom="@+id/one"
+           android:layout_toRightOf="@+id/one"
+           android:layout_toEndOf="@+id/one"
            android:textSize="40dp" />
 
        <Button
@@ -47,8 +47,8 @@
            android:layout_width="match_parent"
            android:layout_height="wrap_content"
            android:text="3"
-           android:id="@+id/button3"
-           android:layout_alignBottom="@+id/button2"
+           android:id="@+id/three"
+           android:layout_alignBottom="@+id/two"
            android:layout_alignParentRight="true"
            android:layout_alignParentEnd="true"
            android:textSize="40dp" />
@@ -58,7 +58,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:text="+"
-        android:id="@+id/button13"
+        android:id="@+id/add"
         android:layout_column="3"
         android:textSize="40dp" />
 </TableRow>
@@ -72,7 +72,7 @@
                android:layout_width="wrap_content"
                android:layout_height="wrap_content"
                android:text="4"
-               android:id="@+id/button4"
+               android:id="@+id/four"
                android:layout_below="@+id/tableLayout"
                android:layout_alignParentLeft="true"
                android:layout_alignParentStart="true"
@@ -83,10 +83,10 @@
                android:layout_width="match_parent"
                android:layout_height="wrap_content"
                android:text="5"
-               android:id="@+id/button5"
-               android:layout_alignBottom="@+id/button"
-               android:layout_toRightOf="@+id/button"
-               android:layout_toEndOf="@+id/button"
+               android:id="@+id/five"
+               android:layout_alignBottom="@+id/one"
+               android:layout_toRightOf="@+id/one"
+               android:layout_toEndOf="@+id/one"
                android:textSize="40dp" />
 
            <Button
@@ -94,8 +94,8 @@
                android:layout_width="match_parent"
                android:layout_height="wrap_content"
                android:text="6"
-               android:id="@+id/button6"
-               android:layout_alignBottom="@+id/button2"
+               android:id="@+id/six"
+               android:layout_alignBottom="@+id/two"
                android:layout_alignParentRight="true"
                android:layout_alignParentEnd="true"
                android:textSize="40dp" />
@@ -105,7 +105,7 @@
                android:layout_width="match_parent"
                android:layout_height="wrap_content"
                android:text="-"
-               android:id="@+id/button14"
+               android:id="@+id/minus"
                android:layout_column="3"
                android:textSize="40dp" />
        </TableRow>
@@ -118,7 +118,7 @@
                android:layout_width="wrap_content"
                android:layout_height="wrap_content"
                android:text="7"
-               android:id="@+id/button7"
+               android:id="@+id/seven"
                android:layout_below="@+id/tableLayout"
                android:layout_alignParentLeft="true"
                android:layout_alignParentStart="true"
@@ -129,10 +129,10 @@
                android:layout_width="match_parent"
                android:layout_height="wrap_content"
                android:text="8"
-               android:id="@+id/button8"
-               android:layout_alignBottom="@+id/button"
-               android:layout_toRightOf="@+id/button"
-               android:layout_toEndOf="@+id/button"
+               android:id="@+id/eight"
+               android:layout_alignBottom="@+id/one"
+               android:layout_toRightOf="@+id/one"
+               android:layout_toEndOf="@+id/one"
                android:textSize="40dp" />
 
            <Button
@@ -140,8 +140,8 @@
                android:layout_width="match_parent"
                android:layout_height="wrap_content"
                android:text="9"
-               android:id="@+id/button9"
-               android:layout_alignBottom="@+id/button2"
+               android:id="@+id/nine"
+               android:layout_alignBottom="@+id/two"
                android:layout_alignParentRight="true"
                android:layout_alignParentEnd="true"
                android:textSize="40dp" />
@@ -151,7 +151,7 @@
                android:layout_width="match_parent"
                android:layout_height="wrap_content"
                android:text="X"
-               android:id="@+id/button15"
+               android:id="@+id/mutli"
                android:layout_column="3"
                android:textSize="40dp" />
        </TableRow>
@@ -163,7 +163,7 @@
                style="?android:attr/buttonStyleSmall"
                android:layout_width="wrap_content"
                android:layout_height="wrap_content"
-               android:id="@+id/button10"
+               android:id="@+id/clr"
                android:layout_below="@+id/tableLayout"
                android:layout_alignParentLeft="true"
                android:layout_alignParentStart="true"
@@ -175,10 +175,10 @@
                android:layout_width="wrap_content"
                android:layout_height="wrap_content"
                android:text="0"
-               android:id="@+id/button11"
-               android:layout_alignBottom="@+id/button"
-               android:layout_toRightOf="@+id/button"
-               android:layout_toEndOf="@+id/button"
+               android:id="@+id/zero"
+               android:layout_alignBottom="@+id/one"
+               android:layout_toRightOf="@+id/one"
+               android:layout_toEndOf="@+id/one"
                android:textSize="40dp" />
 
            <Button
@@ -186,8 +186,8 @@
                android:layout_width="match_parent"
                android:layout_height="wrap_content"
                android:text="="
-               android:id="@+id/button12"
-               android:layout_alignBottom="@+id/button2"
+               android:id="@+id/equ"
+               android:layout_alignBottom="@+id/two"
                android:layout_alignParentRight="true"
                android:layout_alignParentEnd="true"
                android:textSize="40dp" />
@@ -197,7 +197,7 @@
                android:layout_width="match_parent"
                android:layout_height="wrap_content"
                android:text="÷"
-               android:id="@+id/button16"
+               android:id="@+id/divide"
                android:layout_column="3"
                android:textSize="40dp" />
        </TableRow>
@@ -207,7 +207,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:id="@+id/textView"
+        android:id="@+id/result"
         android:layout_above="@+id/tableLayout"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="76dp" />
