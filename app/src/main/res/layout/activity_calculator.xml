@@ -30,6 +30,7 @@
            android:layout_alignParentLeft="true"
            android:layout_alignParentStart="true"
            android:textSize="40dp" />
+            <!--sp-->
 
        <Button
            style="?android:attr/buttonStyleSmall"
